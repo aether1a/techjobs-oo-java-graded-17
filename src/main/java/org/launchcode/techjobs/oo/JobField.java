@@ -23,7 +23,7 @@ public abstract class JobField {
     }
 
     @Override
-    public boolean equals(Object obj) {  // Two objects are equal if they have the same id.
+    public boolean equals(Object obj) {
         if (this == obj) return true;
         if (!(obj instanceof JobField)) return false;
         JobField jobField = (JobField) obj;
